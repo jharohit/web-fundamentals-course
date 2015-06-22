@@ -3,7 +3,7 @@
 Below is a list of resources for the sessions covered in the course:
 
 ### General Resources
-[Latest Trending Projects](https://github.com/trending)
+[Latest Trending OSS Projects](https://github.com/trending)
 
 [News for Hackers](https://news.ycombinator.com/)
 
