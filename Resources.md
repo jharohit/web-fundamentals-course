@@ -9,12 +9,16 @@ Below is a list of resources for the sessions covered in the course:
 
 [Web Course by Codeacademy](http://www.codecademy.com/tracks/web)
 
+[Web Course by Udemy](https://www.udemy.com/learn-html5-programming-from-scratch/)
+
 [Awesome Collection of Resources](https://github.com/bayandin/awesome-awesomeness)
 
 
 ### Session I - Basic HTML + HTML5 Elements
 
-[HTML5 Cheat Sheet](http://www.smashingmagazine.com/wp-content/uploads/images/html5-cheat-sheet/html5-cheat-sheet.pdf)
+[HTML5 Cheat Sheet I](http://www.smashingmagazine.com/wp-content/uploads/images/html5-cheat-sheet/html5-cheat-sheet.pdf)
+
+[HTML5 Cheat Sheet II](http://diveintohtml5.info/peeks-pokes-and-pointers.html)
 
 [Awesome Links for HTML5](https://github.com/diegocard/awesome-html5)
 
