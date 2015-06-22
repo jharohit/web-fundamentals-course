@@ -21,6 +21,9 @@ Below is a list of resources for the sessions covered in the course:
 [Dive Into HTML5 by Mark Pilgrim](http://diveintohtml5.info/)
 
 
+### Session II - Basic CSS + CSS3 
+
+### Session III - Javascript 
 
 
 
