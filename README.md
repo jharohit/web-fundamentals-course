@@ -7,3 +7,6 @@ A starter course on HTML,CSS & JS for RBS Devs in APAC
 * [Sublime Text 3](http://www.sublimetext.com/3) (or any other basic code editor)
 
 **Topics covered**
+* [Topics for Basic HTML + HTML5](Session I - Basic HTML + HTML5 elements/README.md)
+* [Topics for Basic CSS + CSS3](Session I - Basic CSS + CSS3/README.md)
+
