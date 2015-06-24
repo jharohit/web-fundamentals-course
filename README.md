@@ -10,3 +10,4 @@ A starter course on HTML,CSS & JS for RBS Devs in APAC
 * [For Basic HTML + HTML5](Session I - Basic HTML + HTML5 elements/README.md)
 * [For Basic CSS + CSS3](Session I - Basic CSS + CSS3/README.md)
 
+**Other good [resources](Resources.md)**
