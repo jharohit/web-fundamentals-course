@@ -1,2 +1,2 @@
-# Session II - Basic CSS + CSS3
+# Session III - Javascript
 **Topics Covered**
