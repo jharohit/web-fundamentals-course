@@ -31,6 +31,8 @@ Below is a list of resources for the sessions covered in the course:
 
 ### Session III - Javascript 
 
+[Eloquent JS](http://eloquentjavascript.net/)
+
 
 
 
