@@ -29,6 +29,8 @@ Below is a list of resources for the sessions covered in the course:
 
 ### Session II - Basic CSS + CSS3 
 
+[Bootstrap](http://getbootstrap.com)
+
 ### Session III - Javascript 
 
 [Eloquent JS](http://eloquentjavascript.net/)
