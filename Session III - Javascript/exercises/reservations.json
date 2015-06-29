@@ -1,0 +1,20 @@
+[
+	{
+		"firstName" :"Rohit",
+		"lastName": "Jha",
+		"email" : "rohit.jha@rbs.com",
+		"phone": "1123",
+		"arrivalDate" : "0029-01-01",
+		"nights": "12",
+		"comments": "I need to book a 2 bedroom place" 
+	},
+	{
+		"firstName" :"Bertie",
+		"lastName": "Wooster",
+		"email" : "rohit.jha@rbs.com",
+		"phone": "1123",
+		"arrivalDate" : "0029-01-01",
+		"nights": "12",
+		"comments": "I need to book a 2 bedroom place" 
+	}
+]

@@ -1,0 +1,23 @@
+body {
+	color: #ffffff;
+	background: #000000;
+		margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 70%;
+}
+
+a {
+	color: #ff69b4;
+}
+
+.bodyStyle {
+	background: #ffffff;
+}
+
+footer {
+	background: url('http://untroubled.org/backgrounds/marble/black2.jpg');
+	background-size: contain;
+}
+

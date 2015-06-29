@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+                <title>Hacking HTML</title>
+                <meta charset="utf-8" />
+        </head>
+        <body>
+                <header>
+                        <h1>Pacific Trails Resort</h1>
+                </header>
+                <nav>
+                        <a href="index.html">Home</a>
+                        <a href="yurts.html">Yurts</a>
+                        <a href="activities.html">Activities</a>
+                        <a href="reservations.html">Reservations</a>
+                </nav>
+                <h2>Reservations at Pacific Trails</h2>
+                <strong>Contact Us Today!</strong>
+                <p>
+                        Required fields are marked with an asterisk *
+                </p>
+                <form id="reservationForm">
+                        <label for="firstName">*First Name:</label>
+                        <input name="firstName" type="text"/><br>
+                        <label for="lastName">*Last Name:</label>
+                        <input name="lastName" type="text"/><br>
+                        <label for="email">*E-mail:</label>
+                        <input name="email" type="email"/><br>
+                        <label for="phone">Phone:</label>
+                        <input name="phone" type="tel"/><br>
+                        <label for="arrivalDate">Arrival Date:</label>
+                        <input name="arrivalDate" type="date"/><br>
+                        <label for="nights">Nights:</label>
+                        <input name="nights" type="number"/><br>
+                        <label for="comments">*Comments:</label>
+                        <textarea rows="5" name="comments"></textarea><br>
+                        <input type="submit"/>
+                </form>
+                <br>
+                <h2>List of reservations</h2>                
+                <table id="reservations" border="1"></table>
+        <footer>
+                <em>Copyright &copy; 2014 Pacific Trails Resort</em>
+                <br>
+                <a href="mailto:rohit.jha@rbs.com">rohit.jha@rbs.com</a>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>
+                $('form').submit(function(e) {
+               
+                    var postData = $(this).serializeArray();
+                    $.ajax(
+                    {
+                        url : '/reservations',
+                        type: "POST",
+                        data : postData,
+                        success:function(data, textStatus, jqXHR) 
+                        {
+                            //data: retun data from server
+                            alert('your data was received!');
+                        },
+                        error: function(jqXHR, textStatus, errorThrown) 
+                        {
+                            //if fails      
+                            alert('your data was NOT received!');
+                        }
+                    });
+                
+                    e.preventDefault();
+                });
+                
+                
+                $(document).ready(function(){
+                        $.ajax({
+                           type: "GET",
+                           url: "reservations.json",
+                           success:function(data, textStatus, jqXHR) 
+                           {
+                               //data: return data from server    
+                               var tableArr = [];
+                               tableArr.push('<tr><th>Guest List</th></tr>')
+                               for(var i=0;i<data.length;i++){
+                                       var reservation = data[i];                                       
+                                       tableArr.push('<tr><td>'+reservation.firstName+' '+reservation.lastName+'</td></tr>');
+                               }                        
+                               $('#reservations').html(tableArr);
+                               console.log(data);
+                           },
+                           error: function(jqXHR, textStatus, errorThrown) 
+                           {
+                               //if fails      
+                           }   
+                        });
+                });
+        </script>
+        </body>
+</html>
